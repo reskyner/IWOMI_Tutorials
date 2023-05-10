@@ -18,3 +18,8 @@ conda install pip
 python3 -m pip install -U pip
 pip install -r requirements.txt
 ```
+
+#### For Mac M1 users install JDK using this
+```shell
+https://www.azul.com/downloads/?os=macos&architecture=arm-64-bit&package=jdk#zulu
+```

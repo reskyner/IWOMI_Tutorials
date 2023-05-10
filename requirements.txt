@@ -1,0 +1,10 @@
+notebook
+pandas
+ipydatagrid
+git+https://github.com/Kohulan/DECIMER-Image_Transformer.git
+git+https://github.com/Kohulan/DECIMER-Image-Segmentation
+PyPDF2==2.0.0
+rdkit-pypi>=2022.09.4
+pillow==9.4.0
+opencv-python==4.7.0.68
+jpype1==1.4.1

@@ -17,19 +17,14 @@ except JVMNotFoundException:
     jvmPath = "Define/path/or/set/JAVA_HOME/variable/properly"
 if not isJVMStarted():
     cdk_path = "https://github.com/cdk/cdk/releases/download/cdk-2.8/cdk-2.8.jar"
-    sru_path = "https://github.com/JonasSchaub/SugarRemoval/releases/download/v1.3.2/SugarRemovalUtility-jar-with-dependencies.jar"
     cdkjar_path = str(pystow.join("STOUT-V2")) + "/cdk-2.8.jar"
-    srujar_path = (
-        str(pystow.join("STOUT-V2")) + "/SugarRemovalUtility-jar-with-dependencies.jar"
-    )
+    
 
     if not os.path.exists(cdkjar_path):
         jar_path = pystow.ensure("STOUT-V2", url=cdk_path)
 
-    if not os.path.exists(srujar_path):
-        jar_path = pystow.ensure("STOUT-V2", url=sru_path)
-
-    startJVM("-ea", classpath=[cdkjar_path, srujar_path])
+    
+    startJVM("-ea", classpath=cdkjar_path)
     cdk_base = "org.openscience.cdk"
 
 
