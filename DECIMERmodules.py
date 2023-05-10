@@ -2,7 +2,7 @@ import os
 import cv2
 from PIL import Image
 from decimer_segmentation import segment_chemical_structures_from_file
-import Predictor_exported
+from DECIMER import predict_SMILES
 
 
 def convert_image(path: str):
@@ -72,6 +72,6 @@ def getPredictedSegments(path: str):
             segment_path = os.path.join(segment_directory, segmentname)
             segment_paths.append(segment_path)
             cv2.imwrite(segment_path, segments[segment_index])
-            smiles = Predictor_exported.predict_SMILES(segment_path)
+            smiles = predict_SMILES(segment_path)
             smiles_predicted.append(smiles)
         return segment_paths, smiles_predicted
