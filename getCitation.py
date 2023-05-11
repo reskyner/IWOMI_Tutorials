@@ -11,7 +11,7 @@ def get_doi(pdf_name: str):
     Resturns (str): DOI
     """
     # DOI regex
-    pattern = r"10\.\d{4,9}/[-._;()/:A-Za-z0-9]+"
+    pattern = r"\b10\.\d{0,9}\/[-._;()\/:a-zA-Z0-9]+\b"
 
     # Open the PDF file in binary mode
     with open(pdf_name, "rb") as file:
