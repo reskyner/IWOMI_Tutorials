@@ -12,6 +12,8 @@ $ bash Miniconda3-latest-Linux-x86_64.sh
 
 #### Use a conda environment for clean installation
 ```shell
+git clone https://github.com/Kohulan/DECIMER_IWOMI_Tutorial.git
+cd DECIMER_IWOMI_Tutorial
 conda create --name DECIMER python=3.10.0
 conda activate DECIMER
 conda install pip
