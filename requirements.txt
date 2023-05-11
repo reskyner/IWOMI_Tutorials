@@ -2,7 +2,7 @@ notebook
 pandas
 ipydatagrid
 git+https://github.com/Kohulan/DECIMER-Image_Transformer.git
-git+https://github.com/Kohulan/DECIMER-Image-Segmentation
+git+https://github.com/Kohulan/DECIMER-Image-Segmentation.git
 PyPDF2==2.0.0
 rdkit-pypi>=2022.09.4
 pillow==9.4.0
