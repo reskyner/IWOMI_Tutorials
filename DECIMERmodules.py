@@ -1,7 +1,10 @@
 import os
 import cv2
 from PIL import Image
-from decimer_segmentation import segment_chemical_structures_from_file
+from decimer_segmentation import (
+    segment_chemical_structures,
+    segment_chemical_structures_from_file,
+)
 from DECIMER import predict_SMILES
 
 
@@ -31,19 +34,21 @@ def convert_image(path: str):
 def get_segments(path: str):
     """Takes an image filepath and returns a set of paths and image name of segmented images.
     Args:
-        input_path (str): path of an image.
+        input_path (str): path of an file.
     Returns:
         image_name (str): image file name.
         segments (list): a set of segmented images.
     """
-    image_name = os.path.split(path)[1]
-    if image_name[-3:].lower() == "gif":
-        new_path = convert_image(path)
-        segments = segment_chemical_structures_from_file(new_path)
-        return image_name, segments
+    file_name = os.path.split(path)[1]
+    if file_name[-3:].lower() == "pdf":
+        segments = segment_chemical_structures_from_file(
+            path, expand=True, poppler_path=None
+        )
+        return file_name, segments
     else:
-        segments = segment_chemical_structures_from_file(path)
-        return image_name, segments
+        page = cv2.imread(path)
+        segments = segment_chemical_structures(page, expand=True)
+        return file_name, segments
 
 
 def getPredictedSegments(path: str):
