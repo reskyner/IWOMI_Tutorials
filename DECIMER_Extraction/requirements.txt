@@ -1,3 +1,5 @@
 deepsearch-toolkit
 pdf2doi
 openai
+notebook
+pandas
