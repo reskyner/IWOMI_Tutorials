@@ -1,0 +1,10 @@
+Index,DOI/Filename,Image ID,Predicted Smiles
+2,10.1021/acs.jnatprod.1c00203,page_0_2,CCCCCC1C2C3C4=C(C[C@](C)(C(=C2C(=O)OC3=O)C1[C@H](C(=O)[C@@H](CCC)O)O)C(=O)OC)C(=O)OC4=OO
+3,10.1021/acs.jnatprod.1c00203,page_0_3,CCCCCCC1C2C3C4=C(C[C@H](C)C3(C1[C@H](C(=O)[C@@H](CCC)O)O)C2=O)C(=O)OC4=OO
+6,10.1021/acs.jnatprod.1c00203,page_1_2,CCCCCC1C2C3C4=C(C[C@](C)(C(=C2C(=O)OC3=O)C1[C@H](C(=O)[C@@H](CCC)O)O)C(=O)OC)C(=O)OC4=OO
+7,10.1021/acs.jnatprod.1c00203,page_1_3,CCCCCCC1C2C3C4=C(C[C@H](C)C3(C1[C@H](C(=O)[C@@H](CCC)O)O)C2=O)C(=O)OC4=OO
+8,10.1021/acs.jnatprod.1c00203,page_3_0,CC(C)C(C)C(C)C(C)(C)C(C)(C)C(C)(C)C(C)(C)C(C)(C)C(C)(C)C(C)(C)C(C)(C)C(C)(C)C(C)(C)C(C)(C)C(C)(C)C(C)(C)C(C)(C)C(C)(C)C(C)(C)C(C)(C)C(C)(C)C(C)(C)C(C)(C)C(C)(C)C(C)(C)C(C)(C)C(C)(C)C(C)(C)C(C)(C)C(C)(C)C(C)(C)C(C)(C)C(C)(C)C(C)(C)C(C)(C)C(C)(C)C(C)(C)C(C)(C)C(C)(C)C(C)(C)C(C)(C)C(C)(C)C(C)(C)C(C)(C)CC
+9,10.1021/acs.jnatprod.1c00203,page_3_1,CC(C)C(C)C(C)C(C)C(C)C(C)C(C)C(C)C(C)C(C)C(C)C(C)C(C)C(C)C(C)C(C)C(C)C(C)C(C)C(C)C(C)C(C)C(C)C(C)C(C)(C)C(C)(C)C(C)(C)C(C)(C)C(C)(C)C(C)(C)C(C)(C)C(C)(C)C(C)(C)C(C)(C)C(C)(C)C(C)(C)C(C)(C)C(C)(C)C(C)(C)C(C)(C)C(C)(C)C(C)(C)C(C)(C)C(C)(C)C(C)(C)C(C)(C)C(C)(C)C(C)(C)C(C)(C)C(C)(C)C(C)(C)C(C)(C)C(C)(C)CC
+14,10.1021/acs.jnatprod.1c00203,page_4_3,C1([3H])C2([3H])C([3H])C(C1[3H])(C2[3H])OO
+17,10.1021/acs.jnatprod.1c00203,page_4_6,C[C@@]12CC3=C([C@H]4[C@@H]5CC[C@@H](C5)[C@@H]4[C@@H]2[C@@H](O)OC1=O)C(=O)OC3=OO
+23,10.1021/acs.jnatprod.1c00203,page_5_4,C[C@@]12CC3=C(C(=O)OC3=O)[C@@]45[C@@H]2[C@H]6[C@H]([C@H]61)C5C4=OO
