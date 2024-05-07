@@ -27,8 +27,8 @@ Follow these steps to set up DECIMER within a Conda environment:
    ```
 2. **Create Conda Environment**:
    ```shell
-   conda create --name DECIMER python=3.10.0
-   conda activate DECIMER
+   conda create --name DECIMER_Extraction python=3.10.0
+   conda activate DECIMER_Extraction
    conda install pip
    python3 -m pip install -U pip
    pip install -r requirements.txt
