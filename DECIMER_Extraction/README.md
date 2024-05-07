@@ -1,6 +1,6 @@
 # DECIMER IWOMI Tutorial
 
-Welcome to the DECIMER Extraction Hands-on Tutorial @ IWOMI 2023! 🎉
+Welcome to the DECIMER Extraction Hands-on Tutorial @ IWOMI 2024! 🎉
 
 ## Overview
 
