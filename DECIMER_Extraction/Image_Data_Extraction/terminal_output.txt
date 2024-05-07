@@ -1,0 +1,10 @@
+Predicted parsable SMILES and saved predicted image to /home/laurin/IWOMI_Tutorials/DECIMER_Extraction/Image_Data_Extraction/test_page/page_0_segments/page_0_2_predicted.png
+Predicted parsable SMILES and saved predicted image to /home/laurin/IWOMI_Tutorials/DECIMER_Extraction/Image_Data_Extraction/test_page/page_0_segments/page_0_1_predicted.png
+Predicted parsable SMILES and saved predicted image to /home/laurin/IWOMI_Tutorials/DECIMER_Extraction/Image_Data_Extraction/test_page/page_0_segments/page_0_2_predicted.png
+Predicted parsable SMILES and saved predicted image to /home/laurin/IWOMI_Tutorials/DECIMER_Extraction/Image_Data_Extraction/test_page/page_0_segments/page_0_1_predicted.png
+Predicted parsable SMILES and saved predicted image to /home/laurin/IWOMI_Tutorials/DECIMER_Extraction/Image_Data_Extraction/test_page/page_0_segments/page_0_4_predicted.png
+Predicted parsable SMILES and saved predicted image to /home/laurin/IWOMI_Tutorials/DECIMER_Extraction/Image_Data_Extraction/test_page/page_0_segments/page_0_0_predicted.png
+[11:03:37] SMILES Parse Error: unclosed ring for input: 'CCN1C2=C(C(=O)N(C)C1=O)N(C)C=N22'
+Predicted parsable SMILES and saved predicted image to /home/laurin/IWOMI_Tutorials/DECIMER_Extraction/Image_Data_Extraction/test_page/page_0_segments/page_0_3_predicted.png
+Predicted parsable SMILES and saved predicted image to /home/laurin/IWOMI_Tutorials/DECIMER_Extraction/Image_Data_Extraction/test_page/page_0_segments/page_0_4_predicted.png
+Predicted parsable SMILES and saved predicted image to /home/laurin/IWOMI_Tutorials/DECIMER_Extraction/Image_Data_Extraction/test_page/page_0_segments/page_0_3_predicted.png
