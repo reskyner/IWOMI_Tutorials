@@ -1,6 +1,1 @@
 ,Unnamed: 0,DOI/Filename,Image ID,Predicted Smiles,Avg Confidence Score,SMILES Error
-0,0,test_page,page_0_0,CCN1C2=C(C(=O)N(C)C1=O)N(C)C=N22,0.9969616,SMILES Parse Error: unclosed ring for input
-1,1,test_page,page_0_1,CC(=O)NC1=CC=C(C=C1)OO,0.9633848,page_0_1_predicted.png
-2,2,test_page,page_0_2,CC(C)CC1=CC=C(C=C1)C(C)C(=O)OO,0.9951932,page_0_2_predicted.png
-3,3,test_page,page_0_3,CC(C)CC1=CC=C(C=C1)C(C)C(=O)OO,0.9947095,page_0_3_predicted.png
-4,4,test_page,page_0_4,CC(C)CC1=CC=C(C=C1)C(C)C(=O)OC[C@@H]2[C@@H](CO)O[C@](CO)([C@H]2O)OC3[C@@H]([C@H]([C@@H]([C@@H](COC4[C@@H]([C@H]([C@H]([C@@H](CO)O4)O)O)O)O3)O)O)OOO,0.9906392,page_0_4_predicted.png

@@ -1,10 +1,31 @@
-Predicted parsable SMILES and saved predicted image to /home/laurin/IWOMI_Tutorials/DECIMER_Extraction/Image_Data_Extraction/test_page/page_0_segments/page_0_2_predicted.png
-Predicted parsable SMILES and saved predicted image to /home/laurin/IWOMI_Tutorials/DECIMER_Extraction/Image_Data_Extraction/test_page/page_0_segments/page_0_1_predicted.png
-Predicted parsable SMILES and saved predicted image to /home/laurin/IWOMI_Tutorials/DECIMER_Extraction/Image_Data_Extraction/test_page/page_0_segments/page_0_2_predicted.png
-Predicted parsable SMILES and saved predicted image to /home/laurin/IWOMI_Tutorials/DECIMER_Extraction/Image_Data_Extraction/test_page/page_0_segments/page_0_1_predicted.png
-Predicted parsable SMILES and saved predicted image to /home/laurin/IWOMI_Tutorials/DECIMER_Extraction/Image_Data_Extraction/test_page/page_0_segments/page_0_4_predicted.png
-Predicted parsable SMILES and saved predicted image to /home/laurin/IWOMI_Tutorials/DECIMER_Extraction/Image_Data_Extraction/test_page/page_0_segments/page_0_0_predicted.png
-[11:03:37] SMILES Parse Error: unclosed ring for input: 'CCN1C2=C(C(=O)N(C)C1=O)N(C)C=N22'
-Predicted parsable SMILES and saved predicted image to /home/laurin/IWOMI_Tutorials/DECIMER_Extraction/Image_Data_Extraction/test_page/page_0_segments/page_0_3_predicted.png
-Predicted parsable SMILES and saved predicted image to /home/laurin/IWOMI_Tutorials/DECIMER_Extraction/Image_Data_Extraction/test_page/page_0_segments/page_0_4_predicted.png
-Predicted parsable SMILES and saved predicted image to /home/laurin/IWOMI_Tutorials/DECIMER_Extraction/Image_Data_Extraction/test_page/page_0_segments/page_0_3_predicted.png
+[15:15:40] SMILES Parse Error: syntax error while parsing: CCCCCC[C@@H]1[C@H]2C=C3[C@@](C)(CC4=C([C@@H]2[C@@H]1[C@H](C(=O)[C@@H](CCC)[R19a])O)C(=O)OC4=O)C(=O)O[C@@]3(O)O[R19a]]
+[15:15:40] SMILES Parse Error: Failed parsing SMILES 'CCCCCC[C@@H]1[C@H]2C=C3[C@@](C)(CC4=C([C@@H]2[C@@H]1[C@H](C(=O)[C@@H](CCC)[R19a])O)C(=O)OC4=O)C(=O)O[C@@]3(O)O[R19a]]' for input: 'CCCCCC[C@@H]1[C@H]2C=C3[C@@](C)(CC4=C([C@@H]2[C@@H]1[C@H](C(=O)[C@@H](CCC)[R19a])O)C(=O)OC4=O)C(=O)O[C@@]3(O)O[R19a]]'
+Predicted parsable SMILES and saved predicted image to /home/laurin/IWOMI_Tutorials/DECIMER_Extraction/Image_Data_Extraction/test_pdf/page_1_segments/page_1_2_predicted.png
+[15:15:52] SMILES Parse Error: unclosed ring for input: 'CCCC[C@H]1C=C2C3C4=C(C[C@@]5(C)C3C(C=C5[C@@]2(O1)OC5=O)[C@H](C(=O)[C@@H](CCC)O)O)C(=O)OC4=OO'
+[15:15:54] SMILES Parse Error: syntax error while parsing: C1([3H])C2([3H])C([3H])C1([3H])C2[3H]]
+[15:15:54] SMILES Parse Error: Failed parsing SMILES 'C1([3H])C2([3H])C([3H])C1([3H])C2[3H]]' for input: 'C1([3H])C2([3H])C([3H])C1([3H])C2[3H]]'
+[15:15:56] SMILES Parse Error: syntax error while parsing: C1C[C@H]2[C@@H]3[C@H]([C@@H]1[C@@H]([C@@]2(C3[Y4])O)[Y])[Y16]]
+[15:15:56] SMILES Parse Error: Failed parsing SMILES 'C1C[C@H]2[C@@H]3[C@H]([C@@H]1[C@@H]([C@@]2(C3[Y4])O)[Y])[Y16]]' for input: 'C1C[C@H]2[C@@H]3[C@H]([C@@H]1[C@@H]([C@@]2(C3[Y4])O)[Y])[Y16]]'
+[15:15:58] SMILES Parse Error: unclosed ring for input: 'C[C@@H]1C=C2[C@@]3(C)CC4=C([C@@H]5[C@@H]1C[C@]2(O)OC3=O)C(=O)OC4=OO'
+[15:16:00] SMILES Parse Error: syntax error while parsing: C1([3H])C2([3H])C([3H])C([3H])(C1[3H])C2[Y4]]
+[15:16:00] SMILES Parse Error: Failed parsing SMILES 'C1([3H])C2([3H])C([3H])C([3H])(C1[3H])C2[Y4]]' for input: 'C1([3H])C2([3H])C([3H])C([3H])(C1[3H])C2[Y4]]'
+Predicted parsable SMILES and saved predicted image to /home/laurin/IWOMI_Tutorials/DECIMER_Extraction/Image_Data_Extraction/test_pdf/page_4_segments/page_4_3_predicted.png
+[15:16:04] SMILES Parse Error: syntax error while parsing: CC1C2C(C)C3(C2C1(C3[Y4])O)[Y7]]
+[15:16:04] SMILES Parse Error: Failed parsing SMILES 'CC1C2C(C)C3(C2C1(C3[Y4])O)[Y7]]' for input: 'CC1C2C(C)C3(C2C1(C3[Y4])O)[Y7]]'
+Predicted parsable SMILES and saved predicted image to /home/laurin/IWOMI_Tutorials/DECIMER_Extraction/Image_Data_Extraction/test_pdf/page_4_segments/page_4_6_predicted.png
+[15:16:10] SMILES Parse Error: syntax error while parsing: C1([3H])C2([3H])C([3H])C([3H])(C1([3H])C2[Y4])OO
+[15:16:10] SMILES Parse Error: Failed parsing SMILES 'C1([3H])C2([3H])C([3H])C([3H])(C1([3H])C2[Y4])OO' for input: 'C1([3H])C2([3H])C([3H])C([3H])(C1([3H])C2[Y4])OO'
+Predicted parsable SMILES and saved predicted image to /home/laurin/IWOMI_Tutorials/DECIMER_Extraction/Image_Data_Extraction/test_pdf/page_3_segments/page_3_0_predicted.png
+[15:17:09] SMILES Parse Error: extra open parentheses for input: 'CC(C)C(=C(C)C(=C(C)C(=C(C)C(=C(C)C(=C(C)C(=C(C)C(=C(C)C(=C(C)C(=C(C)C(=C(C)C(=C(C)C(=C(C)C(=C(C)C(=C(C)C(=C(C)C(=C(C)C(=C(C)C(=C(C)C(=C(C)C(=C(C)C(=C(C)C(=C(C)C(=C(C)C(=C(C)C(=C(C)C(=C(C)C(=C(C)C(=C(C)C(=C(C)C(=C(C)C(=C(C)C(=C(C)C(=C(C)C(=C(C)C(=C(C)C(=C(C)C(C)C(=C(C)C(C)C(=C(C)C(C)C(=C(C)C(C)C(C)C(CC'
+[15:17:12] SMILES Parse Error: unclosed ring for input: 'CCCCCC1C2C3=C(C[C@](C)(C(=C1C(=O)OC2=O)C(C(=O)C3)[C@H](C(=O)[C@@H](CCC)O)O)C(=O)OC)C(=O)OC3=[O+]OO'
+Predicted parsable SMILES and saved predicted image to /home/laurin/IWOMI_Tutorials/DECIMER_Extraction/Image_Data_Extraction/test_pdf/page_0_segments/page_0_2_predicted.png
+[15:17:20] SMILES Parse Error: syntax error while parsing: CCCCCC[C@@H]1C2C=C3C(=O)C1C4=C(C[C@@]3(C)[R])C(=O)OC4=O.[C@H](C(=O)[C@H](CCC)O)(C2C=CC2=O)OO
+[15:17:20] SMILES Parse Error: Failed parsing SMILES 'CCCCCC[C@@H]1C2C=C3C(=O)C1C4=C(C[C@@]3(C)[R])C(=O)OC4=O.[C@H](C(=O)[C@H](CCC)O)(C2C=CC2=O)OO' for input: 'CCCCCC[C@@H]1C2C=C3C(=O)C1C4=C(C[C@@]3(C)[R])C(=O)OC4=O.[C@H](C(=O)[C@H](CCC)O)(C2C=CC2=O)OO'
+[15:17:25] SMILES Parse Error: syntax error while parsing: CCCCCC[C@@H]1[C@H]2C=C3[C@@H]4C5=C(C[C@]3(C)C(=O)O[C@@]4(C2=C[C@@H]1[C@H](C(=O)[C@@H](CCC)[R2])O)O[R1])C(=O)OC5=OO
+[15:17:25] SMILES Parse Error: Failed parsing SMILES 'CCCCCC[C@@H]1[C@H]2C=C3[C@@H]4C5=C(C[C@]3(C)C(=O)O[C@@]4(C2=C[C@@H]1[C@H](C(=O)[C@@H](CCC)[R2])O)O[R1])C(=O)OC5=OO' for input: 'CCCCCC[C@@H]1[C@H]2C=C3[C@@H]4C5=C(C[C@]3(C)C(=O)O[C@@]4(C2=C[C@@H]1[C@H](C(=O)[C@@H](CCC)[R2])O)O[R1])C(=O)OC5=OO'
+Predicted parsable SMILES and saved predicted image to /home/laurin/IWOMI_Tutorials/DECIMER_Extraction/Image_Data_Extraction/test_pdf/page_0_segments/page_0_3_predicted.png
+[15:17:41] SMILES Parse Error: unclosed ring for input: 'CC(C)C1C(C)C2(C(C)C(C)(C)C(C)(C)C(C)(C)C(C)(C)C)C(C)C1(C)C(C)(C)C(C)(C)C(C)(C)C(C)(C)C(C)(C)C.CC(C)C1C(C)C2(C(C)C(C)(C)C(C)(C)C(C)(C)C)C(C)(C)C(C)(C)C(C)(C)C(C)(C)C(C)(C)C(C)(C)CC'
+[15:17:43] SMILES Parse Error: unclosed ring for input: 'C[C@]1(CC2=C([C@H]3[C@@H]4C[C@@H](C4)C3=C1C2=O)C(=O)OC2=O)II'
+Predicted parsable SMILES and saved predicted image to /home/laurin/IWOMI_Tutorials/DECIMER_Extraction/Image_Data_Extraction/test_pdf/page_5_segments/page_5_4_predicted.png
+[15:18:05] SMILES Parse Error: extra open parentheses for input: 'CC(C)C(=C(C)C(=C(C)C(=C(C)C(=C(C)C(=C(C)C(=C(C)C(=C(C)C(=C(C)C(=C(C)C(=C(C)C(=C(C)C(=C(C)C(=C(C)C(=C(C)C(=C(C)C(=C(C)C(=C(C)C(=C(C)C(=C(C)C(=C(C)C(=C(C)C(=C(C)C(=C(C)C(=C(C)C(=C(C)C(=C(C)C(=C(C)C(=C(C)C(=C(C)C(=C(C)C(=C(C)C(=C(C)C(=C(C)C)C(=C(C)C(=C(C)C(=C(C)C(C)C(=C(C)C(C)C(=C(C)C(C)C(C)(C)C)C(C)C)CC'
+[15:18:15] SMILES Parse Error: unclosed ring for input: 'C[C@@H]1[C@@H]2C=C3[C@@H]4[C@@H]5C6=C(C[C@]7(C)[C@H]6[C@@](C)(O[C@@]3(C[C@@]89[C@@H](C)[C@@H]%10C=C9[C@@]%11(C)[C@@]%12(C)CC%13=C(C(=O)OC%13=O)[C@]%11(C)[C@@]%10(C)[C@@]8(C)OC7=O)[C@@]14C)OC2=O)C(=O)OC5=OO'
