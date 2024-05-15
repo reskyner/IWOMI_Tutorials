@@ -8,7 +8,9 @@ First either clone this repository, or make a local copy of just the dockerfile 
 
 ### Running the container
 First, to build the container:
-```docker build -t <name_for_image> ```
+```
+docker build -t <name_for_image>
+```
 
 Then find the image name or tag with `docker images` which will list any images you have built. e.g.:
 
@@ -21,13 +23,17 @@ REPOSITORY   TAG       IMAGE ID       CREATED       SIZE
 Then you can use the `TAG` if you have set one, or the `IMAGE ID` to enter the docker container. Because we are running a notebook, we also need to map port 8888 to our local port.
 
 To enter the container run:
-```docker exec -p 8888:8888 -it <tag/image_id> /bin/bash```
+```
+docker exec -p 8888:8888 -it <tag/image_id> /bin/bash
+```
 
 ### Running the jupyter notebook server from inside the container
 
 You should then be inside of the container in the IWOMI_Tutorial directory. You can run a jupyter notebook from here with:
 
-```jupyter notebook --ip 0.0.0.0 --no-browser --allow-root```
+```
+jupyter notebook --ip 0.0.0.0 --no-browser --allow-root
+```
 
 Or with the server command instead if you prefer. 
 
