@@ -4,6 +4,9 @@ If you have any problems with installing locally with conda, you can also setup 
 
 First either clone this repository, or make a local copy of just the dockerfile (the code is cloned into the container image for installation)
 
+## OPTIONAL: google-cloud-sdk
+If you want to use the Google Cloud command line tools, such as `gsutil` inside of the container to interact with files in buckets, you can uncomment the `google-cloud-sdk` lines `9-20` in the `Dockerfile`. For more information about the tools in the sdk, see the docs here: https://cloud.google.com/sdk/docs
+
 ## Using the container
 
 ### Running the container
